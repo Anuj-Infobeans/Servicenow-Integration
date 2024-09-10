@@ -37,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8b7e5b1d1b205a9065e16287624bcbed</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Demo flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Github Integration" source="x_inbe_github_inte">2eb91f551b205a9065e16287624bcb07</sys_package>
@@ -45,7 +45,7 @@
         <sys_scope display_value="Github Integration">2eb91f551b205a9065e16287624bcb07</sys_scope>
         <sys_update_name>sys_hub_flow_8b7e5b1d1b205a9065e16287624bcbed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-10 10:42:16</sys_updated_on>
+        <sys_updated_on>2024-09-10 10:46:31</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=8b7e5b1d1b205a9065e16287624bcbed"/>
@@ -60,10 +60,10 @@
         <sys_created_by>anuj.patidar</sys_created_by>
         <sys_created_on>2024-09-09 10:37:27</sys_created_on>
         <sys_id>271fdf9d1b205a9065e16287624bcb5c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Github Integration">2eb91f551b205a9065e16287624bcb07</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-10 10:42:15</sys_updated_on>
+        <sys_updated_on>2024-09-10 10:46:31</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -405,7 +405,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=af1fdf9d1b205a9065e16287624bcb4a"/>
     <sys_hub_flow_output action="delete_multiple" query="model=8b7e5b1d1b205a9065e16287624bcbed"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=8b7e5b1d1b205a9065e16287624bcbed"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=8b7e5b1d1b205a9065e16287624bcbed^sys_idNOT IN2f1fdf9d1b205a9065e16287624bcb63,632d88ed1be05a9065e16287624bcbee,7bc9a87583a896109d7cffc6feaad34a"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=8b7e5b1d1b205a9065e16287624bcbed^sys_idNOT IN2f1fdf9d1b205a9065e16287624bcb63,632d88ed1be05a9065e16287624bcbee,7bc9a87583a896109d7cffc6feaad34a,cacae0f983a896109d7cffc6feaad302"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -423,10 +423,10 @@
         <sys_created_by>anuj.patidar</sys_created_by>
         <sys_created_on>2024-09-09 10:37:27</sys_created_on>
         <sys_id>2f1fdf9d1b205a9065e16287624bcb63</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Github Integration">2eb91f551b205a9065e16287624bcb07</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-10 10:42:15</sys_updated_on>
+        <sys_updated_on>2024-09-10 10:46:31</sys_updated_on>
         <ui_id>e902f6e3-081a-4b23-9690-cb50c14c5911</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2f1fdf9d1b205a9065e16287624bcb63"/>
@@ -513,10 +513,10 @@
         <sys_created_by>anuj.patidar</sys_created_by>
         <sys_created_on>2024-09-09 13:58:42</sys_created_on>
         <sys_id>632d88ed1be05a9065e16287624bcbee</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Github Integration">2eb91f551b205a9065e16287624bcb07</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-10 10:42:15</sys_updated_on>
+        <sys_updated_on>2024-09-10 10:46:31</sys_updated_on>
         <ui_id>f5478b8b-845f-4e05-a702-8602654102f1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=632d88ed1be05a9065e16287624bcbee"/>
@@ -539,16 +539,42 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-10 10:42:15</sys_created_on>
         <sys_id>7bc9a87583a896109d7cffc6feaad34a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Github Integration">2eb91f551b205a9065e16287624bcb07</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-10 10:42:15</sys_updated_on>
+        <sys_updated_on>2024-09-10 10:46:31</sys_updated_on>
         <ui_id>68b0efa3-3a16-406a-9534-d5a05324c5ba</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7bc9a87583a896109d7cffc6feaad34a"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759^id=7bc9a87583a896109d7cffc6feaad34a"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=7bc9a87583a896109d7cffc6feaad34a"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=7bc9a87583a896109d7cffc6feaad34a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Send SMS">027499be7333001099792f163cf6a7a7</action_type>
+        <action_type_parent display_value="Send SMS">d2733cb27333001099792f163cf6a77f</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Demo flow">8b7e5b1d1b205a9065e16287624bcbed</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 10:46:31</sys_created_on>
+        <sys_id>cacae0f983a896109d7cffc6feaad302</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Github Integration">2eb91f551b205a9065e16287624bcb07</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 10:46:31</sys_updated_on>
+        <ui_id>49eb41fe-c533-43ee-bd2e-79b04253854d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cacae0f983a896109d7cffc6feaad302"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_027499be7333001099792f163cf6a7a7^id=cacae0f983a896109d7cffc6feaad302"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cacae0f983a896109d7cffc6feaad302"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cacae0f983a896109d7cffc6feaad302"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=8b7e5b1d1b205a9065e16287624bcbed"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=8b7e5b1d1b205a9065e16287624bcbed"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=8b7e5b1d1b205a9065e16287624bcbed"/>
