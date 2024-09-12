@@ -31,13 +31,40 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>8b7e5b1d1b205a9065e16287624bcbed</sys_id>
-        <sys_mod_count>14</sys_mod_count>
         <sys_mod_count>12</sys_mod_count>
-        <sys_updated_on>2024-09-12 10:45:22</sys_updated_on>
+        <sys_name>Demo flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Github Integration" source="x_inbe_github_inte">2eb91f551b205a9065e16287624bcb07</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Github Integration">2eb91f551b205a9065e16287624bcb07</sys_scope>
+        <sys_update_name>sys_hub_flow_8b7e5b1d1b205a9065e16287624bcbed</sys_update_name>
+        <sys_updated_by>anuj.patidar</sys_updated_by>
         <sys_updated_on>2024-09-10 19:39:31</sys_updated_on>
-        <sys_mod_count>13</sys_mod_count>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=8b7e5b1d1b205a9065e16287624bcbed"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=8b7e5b1d1b205a9065e16287624bcbed^sys_idNOT IN271fdf9d1b205a9065e16287624bcb5c"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Demo flow">8b7e5b1d1b205a9065e16287624bcbed</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>anuj.patidar</sys_created_by>
+        <sys_created_on>2024-09-09 10:37:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>271fdf9d1b205a9065e16287624bcb5c</sys_id>
         <sys_mod_count>11</sys_mod_count>
-        <sys_updated_on>2024-09-12 10:45:22</sys_updated_on>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Github Integration">2eb91f551b205a9065e16287624bcb07</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>anuj.patidar</sys_updated_by>
+        <sys_updated_on>2024-09-10 19:39:30</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -92,18 +119,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>8b7e5b1d1b205a9065e16287624bcbed</id>
         <name>Demo flow</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>anuj.patidar</sys_created_by>
         <sys_created_on>2024-09-09 10:34:41</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>0f7e5b1d1b205a9065e16287624bcbef</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope/>
-        <sys_update_name/>
         <sys_updated_by>anuj.patidar</sys_updated_by>
         <sys_updated_on>2024-09-09 10:34:41</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -124,10 +144,10 @@
         <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="">e80cdf0fc330301021f5e81aa840dd3e</sys_package>
+        <sys_package display_value="Roadmunk Spoke" source="sn_roadmunk_spoke">e80cdf0fc330301021f5e81aa840dd3e</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="">e80cdf0fc330301021f5e81aa840dd3e</sys_scope>
+        <sys_scope display_value="Roadmunk Spoke">e80cdf0fc330301021f5e81aa840dd3e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-05-17 12:31:17</sys_updated_on>
@@ -390,7 +410,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=8b7e5b1d1b205a9065e16287624bcbed"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=8b7e5b1d1b205a9065e16287624bcbed"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=8b7e5b1d1b205a9065e16287624bcbed^sys_idNOT IN2f1fdf9d1b205a9065e16287624bcb63"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=8b7e5b1d1b205a9065e16287624bcbed^sys_idNOT IN2f1fdf9d1b205a9065e16287624bcb63,adc4eab193641650714c366badba10b3"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -407,7 +427,7 @@
         <sys_created_on>2024-09-09 10:37:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>2f1fdf9d1b205a9065e16287624bcb63</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -415,7 +435,7 @@
         <sys_scope display_value="Github Integration">2eb91f551b205a9065e16287624bcb07</sys_scope>
         <sys_update_name/>
         <sys_updated_by>anuj.patidar</sys_updated_by>
-        <sys_updated_on>2024-09-12 10:45:22</sys_updated_on>
+        <sys_updated_on>2024-09-10 19:39:31</sys_updated_on>
         <ui_id>e902f6e3-081a-4b23-9690-cb50c14c5911</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2f1fdf9d1b205a9065e16287624bcb63"/>
@@ -486,6 +506,36 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2f1fdf9d1b205a9065e16287624bcb63"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=2f1fdf9d1b205a9065e16287624bcb63"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Demo flow">8b7e5b1d1b205a9065e16287624bcbed</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>anuj.patidar</sys_created_by>
+        <sys_created_on>2024-09-10 19:39:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>adc4eab193641650714c366badba10b3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Github Integration">2eb91f551b205a9065e16287624bcb07</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>anuj.patidar</sys_updated_by>
+        <sys_updated_on>2024-09-10 19:39:31</sys_updated_on>
+        <ui_id>e54972b3-9694-4e7e-a75f-fa2246009c2f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=adc4eab193641650714c366badba10b3"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb^id=adc4eab193641650714c366badba10b3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=adc4eab193641650714c366badba10b3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=adc4eab193641650714c366badba10b3"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=8b7e5b1d1b205a9065e16287624bcbed"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=8b7e5b1d1b205a9065e16287624bcbed"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=8b7e5b1d1b205a9065e16287624bcbed"/>
@@ -505,7 +555,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>231fdf9d1b205a9065e16287624bcb4a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Github Integration" source="x_inbe_github_inte">2eb91f551b205a9065e16287624bcb07</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
@@ -530,7 +580,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>271fdf9d1b205a9065e16287624bcb46</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Github Integration" source="x_inbe_github_inte">2eb91f551b205a9065e16287624bcb07</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
@@ -555,7 +605,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>631fdf9d1b205a9065e16287624bcb4d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Github Integration" source="x_inbe_github_inte">2eb91f551b205a9065e16287624bcb07</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
