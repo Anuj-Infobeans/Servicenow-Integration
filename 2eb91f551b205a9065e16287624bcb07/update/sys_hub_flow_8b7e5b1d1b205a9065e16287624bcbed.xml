@@ -119,11 +119,18 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>8b7e5b1d1b205a9065e16287624bcbed</id>
         <name>Demo flow</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>anuj.patidar</sys_created_by>
         <sys_created_on>2024-09-09 10:34:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>0f7e5b1d1b205a9065e16287624bcbef</sys_id>
         <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope/>
+        <sys_update_name/>
         <sys_updated_by>anuj.patidar</sys_updated_by>
         <sys_updated_on>2024-09-09 10:34:41</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -142,13 +149,13 @@
         <sys_domain>global</sys_domain>
         <sys_id>1d0e064587e745507cc54226dabb3585</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name>FDCollection</sys_name>
+        <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Roadmunk Spoke" source="sn_roadmunk_spoke">e80cdf0fc330301021f5e81aa840dd3e</sys_package>
+        <sys_package display_value="">e80cdf0fc330301021f5e81aa840dd3e</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="Roadmunk Spoke">e80cdf0fc330301021f5e81aa840dd3e</sys_scope>
-        <sys_update_name>sys_complex_object_1d0e064587e745507cc54226dabb3585</sys_update_name>
+        <sys_scope display_value="">e80cdf0fc330301021f5e81aa840dd3e</sys_scope>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-05-17 12:31:17</sys_updated_on>
         <type>complex_object_collection</type>
@@ -525,12 +532,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>231fdf9d1b205a9065e16287624bcb4a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="Github Integration" source="x_inbe_github_inte">2eb91f551b205a9065e16287624bcb07</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Github Integration">2eb91f551b205a9065e16287624bcb07</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8b7e5b1d1b205a9065e16287624bcbed_changed_fields_en</sys_update_name>
         <sys_updated_by>anuj.patidar</sys_updated_by>
         <sys_updated_on>2024-09-09 10:37:27</sys_updated_on>
         <url/>
@@ -550,12 +557,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>271fdf9d1b205a9065e16287624bcb46</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Github Integration" source="x_inbe_github_inte">2eb91f551b205a9065e16287624bcb07</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Github Integration">2eb91f551b205a9065e16287624bcb07</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8b7e5b1d1b205a9065e16287624bcbed_current_en</sys_update_name>
         <sys_updated_by>anuj.patidar</sys_updated_by>
         <sys_updated_on>2024-09-09 10:37:27</sys_updated_on>
         <url/>
@@ -575,12 +582,12 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_id>631fdf9d1b205a9065e16287624bcb4d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Github Integration" source="x_inbe_github_inte">2eb91f551b205a9065e16287624bcb07</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Github Integration">2eb91f551b205a9065e16287624bcb07</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8b7e5b1d1b205a9065e16287624bcbed_table_name_en</sys_update_name>
         <sys_updated_by>anuj.patidar</sys_updated_by>
         <sys_updated_on>2024-09-09 10:37:27</sys_updated_on>
         <url/>
